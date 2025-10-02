@@ -1,6 +1,6 @@
 Problemas de diseño en el código original
-- La clase Restaurante hace demasiadas cosas como gestiona clientes, reservas, platos y facturas).
+- La clase Restaurante hace demasiadas cosas como gestiona clientes, reservas, platos y facturas.
 - No existe separación de responsabilidades.
 - Los atributos no están encapsulados (son públicos).
-- Baja cohesión, porque se mezclan datos del cliente, la reserva y la factura en un solo lugar.
+- Baja integración, porque se mezclan datos del cliente, la reserva y la factura en un solo lugar.
 - Dificultad para reutilizar componentes (no puedes usar 'Factura' o 'Cliente' en otro contexto).
